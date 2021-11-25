@@ -1,3 +1,18 @@
+# Introduction
+
+This repo provides pre-built pip packages for
+<https://github.com/b-flo/warp-transducer>, which is a
+fork from <https://github.com/HawkAaron/warp-transducer>.
+
+Note: <https://github.com/b-flo/warp-transducer> is used by
+[espnet](https://github.com/espnet/espnet). The provided pip
+packages support only PyTorch.
+
+If you are using PyTorch >= 1.10, you can also use the RNNT loss
+from [torchaudio](https://github.com/pytorch/audio). See
+<https://github.com/pytorch/audio/blob/main/torchaudio/functional/functional.py#L1589>
+
+
 # warp-transducer
 A fast parallel implementation of RNN Transducer (Graves 2013 joint network), on both CPU and GPU.
 
